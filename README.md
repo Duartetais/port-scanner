@@ -1,4 +1,4 @@
-# 🔍 Advanced Network Port Scanner (TS)
+# Network Port Scanner (TS)
 
 Um scanner de portas de rede desenvolvido com **TypeScript** e **Node.js**. Esta ferramenta foi projetada para realizar auditorias rápidas em infraestruturas, utilizando execução paralela e tratamento rigoroso de timeouts.
 
