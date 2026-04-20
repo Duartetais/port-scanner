@@ -18,30 +18,31 @@ cd port-scanner
 # Instale as dependências
 npm install
 
+# Compile o TypeScript (se necessário)
+npm run build
+
 # Execute o scanner
 npm start
 ```
+### 🎨 **Diferenciais Técnicos**
 
-🎨 **Diferenciais Técnicos**
+* ⚡ **Performance de Elite:** `Promise.all` para escanear múltiplas portas simultaneamente.
+* 🛡️ **Resiliência de Rede:** `socket.setTimeout` para evitar travamentos em portas filtradas.
+* 🎨 **Interface Profissional:** Saída colorida (ANSI) com alinhamento de colunas.
+* 📊 **Análise de Risco:** Resumo detalhado com contagem de vulnerabilidades.
 
-⚡ Performance de Elite: Promise.all para escanear múltiplas portas simultaneamente
-🛡️ Resiliência de Rede: socket.setTimeout para evitar travamentos em portas filtradas
-🎨 Interface Profissional: Saída colorida (ANSI) com alinhamento de colunas
-📊 Análise de Risco: Resumo detalhado com contagem de vulnerabilidades
+### 🏗️ Estrutura do Projeto
 
-🏗️ **Estrutura do Projeto**
-
-linhasport-scanner/
-
+```text
+port-scanner/
 ├── src/
-│   ├── scanner.ts    # Motor: Lógica de Sockets com Timeout
-│   └── index.ts      # Interface: Orquestração paralela
-├── package.json      # Dependências e scripts
-├── tsconfig.json     # Configuração TypeScript (ESM)
-└── README.md         # Documentação
-
-
-🔗 Conecte-se Comigo
+│   ├── scanner.ts # Motor: Lógica de Sockets com Timeout
+│   └── index.ts   # Interface: Orquestração paralela
+├── package.json   # Dependências e scripts
+├── tsconfig.json  # Configuração TypeScript (ESM)
+└── README.md      # Documentação
+```
+## 🔗 Conecte-se Comigo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Duartetais)
 
