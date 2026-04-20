@@ -1,20 +1,46 @@
-# Network Port Scanner (TS)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-FF0000?style=for-the-badge&logo=shield&logoColor=white)
 
-Um scanner de portas de rede desenvolvido com **TypeScript** e **Node.js**. Esta ferramenta foi projetada para realizar auditorias rápidas em infraestruturas, utilizando execução paralela e tratamento rigoroso de timeouts.
+# 🔍 Network Port Scanner (TS)
 
-##  Diferenciais Técnicos
-- **Performance de Elite**: Utiliza `Promise.all` para escanear múltiplas portas simultaneamente, reduzindo drasticamente o tempo de espera.
-- **Resiliência de Rede**: Implementação de `socket.setTimeout` para evitar que o scanner trave em portas filtradas ou redes instáveis.
-- **Interface de Auditoria**: Saída formatada no terminal com cores (ANSI) e alinhamento de colunas para leitura profissional.
-- **Análise de Risco**: Resumo final detalhado com contagem de vulnerabilidades (portas abertas) e status de proteção.
+Scanner de portas de rede desenvolvido com **TypeScript** e **Node.js**. 
+Ferramenta para auditoria rápida de infraestruturas, com execução paralela e 
+tratamento  de timeouts.
 
-##  Estrutura do Projeto
-```text
-port-scanner/
+## 🚀 Como Usar
+
+bash
+# Clone o repositório
+git clone https://github.com/Duartetais/port-scanner.git
+cd port-scanner
+
+# Instale as dependências
+npm install
+
+# Execute o scanner
+npm start
+
+🎨 **Diferenciais Técnicos**
+
+⚡ Performance de Elite: Promise.all para escanear múltiplas portas simultaneamente
+🛡️ Resiliência de Rede: socket.setTimeout para evitar travamentos em portas filtradas
+🎨 Interface Profissional: Saída colorida (ANSI) com alinhamento de colunas
+📊 Análise de Risco: Resumo detalhado com contagem de vulnerabilidades
+
+🏗️ **Estrutura do Projeto**
+
+{{count}} linhasport-scanner/
 ├── src/
-│   ├── scanner.ts      # Motor: Lógica de Sockets com Timeout e Tratamento de Erro
-│   └── index.ts        # Interface: Orquestração paralela e Relatório Visual
-├── .gitignore          # Filtro de arquivos para o Git
-├── package.json        # Gerenciador de dependências e scripts (tsx)
-├── tsconfig.json       # Configurações de compilador moderno (ESM)
-└── README.md           # Documentação técnica detalhada
+│   ├── scanner.ts    # Motor: Lógica de Sockets com Timeout
+│   └── index.ts      # Interface: Orquestração paralela
+├── package.json      # Dependências e scripts
+├── tsconfig.json     # Configuração TypeScript (ESM)
+└── README.md         # Documentação
+
+
+🔗 Conecte-se Comigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Duartetais)
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Duartetais)
