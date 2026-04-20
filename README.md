@@ -30,7 +30,8 @@ npm start
 
 🏗️ **Estrutura do Projeto**
 
-{{count}} linhasport-scanner/
+linhasport-scanner/
+
 ├── src/
 │   ├── scanner.ts    # Motor: Lógica de Sockets com Timeout
 │   └── index.ts      # Interface: Orquestração paralela
