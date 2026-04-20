@@ -10,7 +10,7 @@ tratamento  de timeouts.
 
 ## 🚀 Como Usar
 
-bash
+``` bash
 # Clone o repositório
 git clone https://github.com/Duartetais/port-scanner.git
 cd port-scanner
@@ -20,6 +20,7 @@ npm install
 
 # Execute o scanner
 npm start
+```
 
 🎨 **Diferenciais Técnicos**
 
